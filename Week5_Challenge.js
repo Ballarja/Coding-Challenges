@@ -1,10 +1,7 @@
-function detectWord(str) {
-  let word = "";
-  for (let i = 0; i < str.length; i++) {
-    if (str[i].toLowerCase() == str[i]) {
-      let letter = str[i];
-      word += letter;
-    }
+function addUp(num) {
+  let sum = 0;
+  for (i = 1; i <= num; i++) {
+    sum += i;
   }
-  return word;
+  return sum;
 }
